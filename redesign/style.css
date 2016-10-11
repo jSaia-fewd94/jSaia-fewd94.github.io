@@ -1,0 +1,259 @@
+#container{
+	margin: 0 auto;
+	width: 1000px;
+	font-family: "brandon-grotesque", Arial, Helvetica, Geneva, sans-serif;
+	height: 1000px;
+}
+
+header div{
+	height: 200px;
+	background-color: navy;
+	float: left;
+	color: white;
+	text-align: center;
+	border-radius: 50px; 
+}
+#site-title{
+	width: 400px;
+}
+
+#site-title a{
+	text-decoration: none;
+	color: white;
+	line-height: 200px;
+	font-size: 48px;
+}
+
+#right-menu{
+	float: right;
+	font-size: 20px;
+}
+
+#right-menu ul{
+	list-style-type: none;
+	width: 600px;
+	
+}
+
+#right-menu ul li{
+	float: left;
+	text-align: center;
+	padding-top: 125px;
+}
+
+#right-menu ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+
+}
+
+#right-menu li{
+	background-color: navy;
+	width: 150px;
+
+}
+
+
+#right-menu img{
+	display: block;
+	height: 30px;
+	width: 30px; 
+	margin: auto;
+	color: white;
+}
+
+
+
+nav{
+	height: 60px;
+	background-color: violet;
+	clear: both;
+	text-decoration: none;
+	padding-top: 20px;
+	border-radius: 30px;
+
+}
+
+nav ul {
+	width: 60%;
+	margin-right: 250px;
+	
+}
+
+nav ul a{
+	text-decoration: none;
+	color:  black;
+	padding: 20px;
+	width: 60%;
+	
+}
+
+
+#search{
+	float: right;
+	
+}
+
+
+main{
+	float: left;
+	width: 75%;
+	height: 5000px;
+	overflow: hidden;
+}
+
+main a{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.movies{
+	float: left;
+	width: 150px;
+	height: 250px;
+	margin: 25px;
+	text-align: center;
+
+}
+
+main img{
+	height: 200px;
+	width: 150px;
+}
+
+aside{
+	float: right;
+	height: 300px;
+	width: 25%;
+	display: inline;
+	padding-top: 20px;
+	background-color: #688ae5;
+	border-radius: 25px;
+}
+
+aside h4{
+	font-weight: bold;
+}
+aside p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#recipe-box{
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+	background-color: indigo;
+}
+
+footer ul {
+	list-style: none;
+
+}
+
+footer li{
+	display: inline-block;
+	padding: 100px;
+	
+}
+
+footer li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+h1{
+	font-weight: bold;
+	margin: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-decoration: none;
+}
+
+#genre-bar{
+	float: left;
+
+}
+
+#genre-bar a{
+	margin: 5px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.hidden{
+	display: none;
+	
+}
+
+#vn-click{
+text-align: center;
+width: 150px;
+height: 30px;
+line-height: 30px;
+background:#FD6CA3;
+color:#fff;
+cursor:pointer;
+display:inline-block;
+}
+
+#vn-info {
+width: 150px;
+display:none;
+background:#16a085;
+color:#fff;
+}
+
+#vn-info ul {
+  margin:0;
+  list-style-type: none;
+}
+
+#comedy-movies{
+	width: 75%;
+	float: left;
+	overflow: hidden;
+}
+
+#comedy-movies img{
+	width: 150px;
+	height: 250px;
+	margin: 25px;
+	padding-top: 75px;
+	overflow: hidden;	
+}
+
+#drama-movies{
+	width: 75%;
+	float: left;
+	overflow: hidden;
+}
+
+#drama-movies img{
+	width: 150px;
+	height: 250px;
+	margin: 25px;
+	padding-top: 75px;
+	overflow: hidden;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
