@@ -126,7 +126,7 @@ main img{
 
 aside{
 	float: right;
-	height: 400px;
+	height: 550px;
 	width: 25%;
 	display: inline;
 	padding-top: 20px;
@@ -248,6 +248,114 @@ color:#fff;
 	padding-top: 75px;
 	overflow: hidden;	
 }
+
+#thriller-movies{
+	width: 75%;
+	float: left;
+	overflow: hidden;
+}
+
+#thriller-movies img{
+	width: 150px;
+	height: 250px;
+	margin: 25px;
+	padding-top: 75px;
+	overflow: hidden;	
+}
+
+#childrens-movies{
+	width: 75%;
+	float: left;
+	overflow: hidden;
+}
+
+#childrens-movies img{
+	width: 150px;
+	height: 250px;
+	margin: 25px;
+	padding-top: 75px;
+	overflow: hidden;	
+}
+
+#adapted-movies{
+	width: 75%;
+	float: left;
+	overflow: hidden;
+}
+
+#adapted-movies img{
+	width: 150px;
+	height: 250px;
+	margin: 25px;
+	padding-top: 75px;
+	overflow: hidden;	
+}
+
+#scifi-movies{
+	width: 75%;
+	float: left;
+	overflow: hidden;
+}
+
+#scifi-movies img{
+	width: 150px;
+	height: 250px;
+	margin: 25px;
+	padding-top: 75px;
+	overflow: hidden;	
+}
+
+#musicals-movies{
+	width: 75%;
+	float: left;
+	overflow: hidden;
+}
+
+#musicals-movies img{
+	width: 150px;
+	height: 250px;
+	margin: 25px;
+	padding-top: 75px;
+	overflow: hidden;	
+}
+
+#awards-movies{
+	width: 75%;
+	float: left;
+	overflow: hidden;
+}
+
+#awards-movies img{
+	width: 150px;
+	height: 250px;
+	margin: 25px;
+	padding-top: 75px;
+	overflow: hidden;	
+}
+
+
+
+#bridget-jones-article{
+	float: left;
+	width: 75%;
+	height: 5000px;
+	overflow: hidden;
+}
+
+h5{
+	font-size: 20px;
+	text-decoration: bold;
+	padding: 50px;
+}
+
+
+
+main img{
+	height:400px;
+	width: 700px;
+
+}
+
 
 
 
