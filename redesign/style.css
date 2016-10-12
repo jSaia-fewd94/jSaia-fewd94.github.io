@@ -92,8 +92,10 @@ nav ul a{
 
 #search{
 	float: right;
+	padding-right: 25px;
 	
 }
+
 
 
 main{
@@ -115,7 +117,6 @@ main a{
 	height: 250px;
 	margin: 25px;
 	text-align: center;
-
 }
 
 main img{
@@ -125,7 +126,7 @@ main img{
 
 aside{
 	float: right;
-	height: 300px;
+	height: 400px;
 	width: 25%;
 	display: inline;
 	padding-top: 20px;
@@ -135,6 +136,9 @@ aside{
 
 aside h4{
 	font-weight: bold;
+}
+aside h5{
+	text-align: center;
 }
 aside p{
 	margin-top: 20px;
@@ -150,6 +154,7 @@ footer{
 	text-align: center;
 	clear: both;
 	background-color: indigo;
+	border-radius: 10px;
 }
 
 footer ul {

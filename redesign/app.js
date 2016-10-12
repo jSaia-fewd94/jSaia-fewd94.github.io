@@ -3,34 +3,54 @@ $(document).ready(function() {
 	// $('#search').click(function(){
 
 	$('#comedy-button').click(function(){
- 		$('#comedy-movies').toggleClass("hidden")
+ 		hideEverybody ();
+ 		$('#comedy-movies').toggle();
 	});
 	
 	$('#drama-button').click(function(){
-	   $('#drama-movies').toggleClass("hidden");
+		hideEverybody ();
+	   $('#drama-movies').toggle();
  	});
 
  	$('#thriller-button').click(function(){
-	   $('#thriller-movies').toggleClass("hidden");
+ 		hideEverybody ();
+	   $('#thriller-movies').toggle();
  	});
  	$('#childrens-button').click(function(){
-	   $('#childrens-movies').toggleClass("hidden");
+ 		hideEverybody ();
+	   $('#childrens-movies').toggle();
  	});
  	$('#adapted-button').click(function(){
-	   $('#adapted-movies').toggleClass("hidden");
+ 		hideEverybody ();
+	   $('#adapted-movies').toggle();
  	});
  	$('#scifi-button').click(function(){
-	   $('#drama-movies').toggleClass("hidden");
+ 		hideEverybody ();
+	   $('#scifi-movies').toggle();
  	});
  	$('#musical-button').click(function(){
-	   $('#drama-movies').toggleClass("hidden");
+ 		hideEverybody ();
+	   $('#musical-movies').toggle();
  	});
  	$('#awards-button').click(function(){
-	   $('#drama-movies').toggleClass("hidden");
+ 		hideEverybody ();
+	   $('#awards-movies').toggle();
  	});
 
-	 var title = "";
+ 	function hideEverybody(){
+		$('#comedy-movies').hide();
+		$('#drama-movies').hide();
+		$('#thriller-movies').hide();
+		$('#childrens-movies').hide();
+		$('#adapted-movies').hide();
+		$('#scifi-movies').hide();
+		$('#musical-movies').hide();
+		$('#awards-movies').hide();
+ 	}
+ 	
 
+
+ var title = "";
 $('#submit').click(function(e){
 	title = $('#title').val();
 	getMovie(title);
